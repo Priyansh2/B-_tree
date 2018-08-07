@@ -382,7 +382,7 @@ int main(int argc, char const *argv[])
 
 	//M=(long long) (argv[2]); //No use of this in code
 
-	B=(long long) argv[3];
+	B=(long long) argv[2];
 
 	n = (B - 1)/4;
 	if(n < 2)

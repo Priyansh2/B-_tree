@@ -13,10 +13,11 @@ Implementation of B+ tree in c++ language to handle queries like INSERT, FIND, C
 
 # NOTE
 For calculating degree of b+tree:
-if each block has space for n keys and n+1 pointers then size occupied = 4*(n)+8*(n+1) [if keys are integer]. Let this be called "S". Thus, picking the maximum value of n such that S<=B(block size).
+if each block has space for n keys and n+1 pointers then size occupied = `4*(n)+8*(n+1)` [if keys are integer].<br/>
+Let this be called "S". Thus, picking the maximum value of n such that S<=B(block size).
 
 # Input
 ​ <Filename,B> as command line arguement , where each line of "filename" (name of input file) consists one of the above mentioned query. "B" is the buffer/block size.
 
 # Output
-Printing output of each command in a separate line
+Printing output of each command in a separate line.
